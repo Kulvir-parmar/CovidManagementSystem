@@ -1,0 +1,66 @@
+.heading {
+  width: 85%;
+  margin: auto;
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: 400;
+  color: #bf2229;
+}
+
+.line {
+  width: 85%;
+  margin: 5px auto;
+}
+
+.search {
+  width: 25%;
+  margin: auto;
+  margin-left: 7.5%;
+}
+
+.select {
+  padding: 15px 60px;
+  outline: solid 0.5px #353535;
+  border-radius: 0px 0px 5px 5px;
+  -webkit-border-radius: 0px 0px 5px 5px;
+  -moz-border-radius: 0px 0px 5px 5px;
+  -ms-border-radius: 0px 0px 5px 5px;
+  -o-border-radius: 0px 0px 5px 5px;
+}
+
+.hr {
+  background: #bf2229;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  padding: 10px;
+  outline: solid 0.5px #353535;
+  border-radius: 5px 5px 0px 0px;
+  -webkit-border-radius: 5px 5px 0px 0px;
+  -moz-border-radius: 5px 5px 0px 0px;
+  -ms-border-radius: 5px 5px 0px 0px;
+  -o-border-radius: 5px 5px 0px 0px;
+}
+
+.button {
+  width: 6rem;
+  padding: 5px;
+  margin: 2%;
+  margin-left: 15%;
+  border: none;
+  outline: solid 1px #bf2229;
+  background: transparent;
+  color: #bf2229;
+  font-size: large;
+  font-weight: 400;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.button:hover{
+  background-color: #bf2229;
+  color: white;
+}
