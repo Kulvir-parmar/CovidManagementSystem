@@ -1,8 +1,7 @@
-.resultsTable{
+.resultsTable {
   width: 85%;
-  margin: auto;
-  margin-top: 20px;
-  outline: solid 0.5px rgba(1,1,1,0.5);
+  margin: 30px auto;
+  outline: solid 0.5px rgba(1, 1, 1, 0.5);
   border: none;
 }
 
@@ -13,10 +12,9 @@
   font-size: large;
   font-weight: 500;
   font-size: large;
-
 }
 
-.line{
-  width:85%;
+.line {
+  width: 85%;
   margin: 5px auto;
 }

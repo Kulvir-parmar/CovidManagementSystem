@@ -35,7 +35,7 @@ function OxygenAvailibility() {
             onChange={(event) => {
               setArea(event.target.value);
             }}>
-            <option value="-1">Select Blood Group </option>
+            <option value="-1">Select your region </option>
             <option value="Delhi NCR">Delhi NCR</option>
             <option value="Delhi East">Delhi East</option>
             <option value="Delhi West">Delhi West</option>
