@@ -36,12 +36,7 @@ function OxygenAvailibility() {
               setArea(event.target.value);
             }}>
             <option value="-1">Select your region </option>
-            <option value="Delhi NCR">Delhi NCR</option>
-            <option value="Delhi East">Delhi East</option>
-            <option value="Delhi West">Delhi West</option>
-            <option value="Delhi North">Delhi North</option>
-            <option value="Delhi South">Delhi South</option>
-            <option value="all">Whole City</option>
+            <option value="Delhi">Delhi</option>
           </select>
         </div>
       </div>
