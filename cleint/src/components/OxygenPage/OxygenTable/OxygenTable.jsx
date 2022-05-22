@@ -1,24 +1,9 @@
-import { useState } from 'react'
+// import { useState } from 'react'
 import { Table } from 'reactstrap'
 import './OxygenTable.css'
 
 function PlasmaTable() {
-  const [response,setResponse] = useState()
-  const list = ()=>{}
-
-  function RenderRow(props) {
-    return (
-      <tbody>
-        <tr>
-          <td >{response}</td>
-          <td>{response}</td>
-          <td>{response}</td>
-          <td>{response}</td>
-          <td>{response}</td>
-        </tr>
-      </tbody>
-    )
-  }
+  
   return (
     <div className='resultsTable'>
       <Table
@@ -35,7 +20,6 @@ function PlasmaTable() {
             <td >Type</td>
           </tr>
         </thead>
-        <RenderRow />
       </Table>
     </div>
   )

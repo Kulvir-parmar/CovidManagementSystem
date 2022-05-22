@@ -1,11 +1,11 @@
 import OxygenAvailibility from './OxygenSearch/OxygenAvailibility.jsx'
-import OxygenTable from './OxygenTable/OxygenTable.jsx'
+// import OxygenTable from './OxygenTable/OxygenTable.jsx'
 
 function OxygenPage() {
   return (
     <div>
       <OxygenAvailibility />
-      <OxygenTable />
+      {/* <OxygenTable /> */}
     </div>
   )
 }

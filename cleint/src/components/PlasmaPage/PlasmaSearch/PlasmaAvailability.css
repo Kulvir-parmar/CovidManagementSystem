@@ -60,7 +60,31 @@
   -o-border-radius: 5px;
 }
 
-.button:hover{
+.button:hover {
   background-color: #bf2229;
   color: white;
+}
+
+/* Reult Table styling */
+.resultsTable {
+  width: 85%;
+  margin: auto;
+  margin-top: 20px;
+  outline: solid 0.5px rgba(1, 1, 1, 0.5);
+  border: none;
+}
+
+.headerRow {
+  height: 60px;
+  background: #bf2229;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+  font-size: large;
+
+}
+
+.line {
+  width: 85%;
+  margin: 5px auto;
 }

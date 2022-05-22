@@ -4,8 +4,6 @@ import './HospitalTable.css'
 
 function HospitalTable() {
   const [response,setResponse] = useState()
-  const list = ()=>{}
-
   function RenderRow(props) {
     return (
       <tbody>

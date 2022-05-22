@@ -1,20 +1,37 @@
 import { useState } from 'react'
-// import { Button } from 'reactstrap'
+import { Table } from 'reactstrap'
 import './OxygenAvailability.css'
 
-import Axios from 'axios';
+import axios from 'axios';
 
 function OxygenAvailibility() {
 
   const [area, setArea] = useState("");
+  const [oxygenList, setOxygenList] = useState()
+  console.log(oxygenList)
+  const oxygenSearch = async () => {
+    try {
+      axios.get("http://localhost:3001/searchOxygen").then((response) => {
+        setOxygenList(response.data);
+      });
+    } catch (error) {
+      setOxygenList([])
+    }
+  };
 
-  const search = () => {
-    Axios.post("http://localhost:3001/", {
-      area: area
-    }).then((res) => {
-      console.log(res);
-    });
-  }
+
+
+  const RenderRow = oxygenList ? oxygenList.map((oxygenList) => {
+    return (
+      <tr>
+        <td>{oxygenList.id}</td>
+        <td >{oxygenList.dealerName}</td>
+        <td>{oxygenList.phoneNum}</td>
+        <td>{oxygenList.address}</td>
+        <td>{oxygenList.available}</td>
+      </tr>
+    )
+  }) : []
 
   return (
     <div>
@@ -44,9 +61,31 @@ function OxygenAvailibility() {
       {/* Search button */}
       <button
         className='button'
-        onClick={search}>
+        onClick={oxygenSearch}>
         Search
       </button>
+
+      {/* Rendering The table to show the data */}
+      <div className='resultsTable'>
+        <Table
+          borderless
+          hover
+          responsive
+        >
+          <thead>
+            <tr className='headerRow'>
+              <td >Sr.No.</td>
+              <td >Dealer Name</td>
+              <td >Contact No</td>
+              <td >Address</td>
+              <td >Availibility</td>
+            </tr>
+          </thead>
+          <tbody>
+            {RenderRow}
+          </tbody>
+        </Table>
+      </div>
     </div >
   )
 }
