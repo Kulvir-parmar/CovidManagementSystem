@@ -4,7 +4,7 @@
   margin-top: 40px;
   font-size: 28px;
   font-weight: 400;
-  color: #bf2229;
+  color: #353533;
 }
 
 .line {
@@ -29,7 +29,7 @@
 }
 
 .hr {
-  background: #bf2229;
+  background: #353533;
   color: white;
   margin-top: 20px;
   margin-bottom: 0px;
@@ -48,9 +48,9 @@
   margin: 2%;
   margin-left: 15%;
   border: none;
-  outline: solid 1px #bf2229;
+  outline: solid 1px #353533;
   background: transparent;
-  color: #bf2229;
+  color: #353533;
   font-size: large;
   font-weight: 400;
   border-radius: 5px;
@@ -61,7 +61,7 @@
 }
 
 .button:hover {
-  background-color: #bf2229;
+  background-color: #353533;
   color: white;
 }
 
@@ -76,7 +76,7 @@
 
 .headerRow {
   height: 60px;
-  background: #bf2229;
+  background: #353533;
   color: white;
   font-size: large;
   font-weight: 500;

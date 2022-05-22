@@ -6,11 +6,10 @@ export default function App() {
           <div className='row'>
             <div className='col-md-3 mx-auto'>
               <h4 className='text-uppercase'>
-                Company name
+                Covid Management System
               </h4>
               <p className='para'>
-                Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-                consectetur adipisicing elit.
+                This is our very sundar website made with pure love and sheer dedication.
               </p>
             </div>
             <div className='col-md-2 col-lg-2 col-xl-2 mx-auto mb-4'>

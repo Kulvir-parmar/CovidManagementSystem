@@ -1,4 +1,63 @@
-.car{
-  width: 100%;
-  height: 100vh;
+.textArea{
+  width: 85%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.artcl-sec .sub-ttl,
+.last-updtd{
+	color: #9A9A9A;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.artcl-sec h2{
+	color: #000000;
+	font-size: 28px;
+	line-height: 32px;
+	letter-spacing: 0;
+	text-transform: capitalize;
+	margin-bottom: 8px;
+}
+.card-hdng{
+	font-size: 28px;
+	line-height: 36px;
+	margin-bottom: 32px;
+}
+.artcl-sec{
+	max-width: 555px;
+}
+.artcl-sec p{
+	color: #262626;
+	font-size: 14px;
+	line-height: 18px;
+	margin-top: 0px;
+}
+.check-list > * {
+  color: #262626;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 12px 0 12px 24px;
+  position: relative;
+  display: block
+}
+
+.check-list > :before {
+  content: "|";
+  width: 13px;
+  height: 11px;
+  margin-top: 5px;
+  position: absolute;
+  left: 0
+}
+
+.image{
+  width: 500px;
+  display:inline;
+  
+}
+.why-ap-care{
+  display:inline;
 }
